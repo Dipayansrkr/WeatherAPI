@@ -25,7 +25,7 @@ print("Current Humidity      :", hmdt, '%')
 print("Current wind speed    :", wind_spd, 'kmph')
 
 weather = open('record.txt', 'w')
-weather.write("-------------------------------------------------------------\n")
+weather.write("\n -------------------------------------------------------------\n")
 weather.write("Weather Stats for - {}  || {} \n".format(location.upper(), date_time))
 weather.write("------------------------------------------------------------- \n")
 
